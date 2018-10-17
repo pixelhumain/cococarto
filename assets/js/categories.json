@@ -1,0 +1,47 @@
+{
+    "sections" : {
+        "need": { "label":"Need something", "labelFront" : "Needs", "key" : "need", "icon" : "angle-double-down"},
+        "offer": {"label":"Offer something", "labelFront" : "Offers","key" : "offer","icon" : "angle-double-up"}
+    },
+    "filters" : {
+       "service" : {
+            "key": "service","icon": "cogs","label": "Service",
+            "subcat" : {
+                "charity" : {"key": "charity", "label": "Charity", "icon" :"cook"},
+                "education" : { "key": "education", "label": "Education help", "icon" :"cook"},
+                "househelp" : { "key": "househelp", "label": "House help", "icon" :"cook"},
+                "washing" : { "key": "washing","label": "Washing", "icon" :"cook"},
+                "gardening" : {"key": "gardening","label": "Gardening","icon" :"cook"},
+                "farming" : {"key": "farming","label": "Farming","icon" :"cook"},
+                "generalmaintenance" : {"key": "generalmaintenance","label": "General Maintenance","icon" :"cook" },
+                "childrencare" : {"key": "animalcare","label": "Animal care","icon" :"cook" },
+                "ederlycare" : {"key": "ederlycare","label": "Ederly care","icon" :"cook" },
+                "disabledcare" : {"key": "disabledcare","label": "Disabled care","icon" :"cook" },
+                "hostinghelp" : {"key": "hostinghelp","label": "Hosting help","icon" :"cook" },
+                "animalcare" : {"key": "animalcare","label": "Animal care","icon" :"cook" }
+            }
+        },
+        "competence" : {"key": "competence","icon": "bookmark","label": "Competence",
+            "subcat" : {
+                "artistic" : {"key": "artistic","label": "Artistic","icon" :"cook" },
+                "laws" : {"key": "laws","label": "Laws","icon" :"cook" },
+                "itdevlopment" : {"key": "itdevlopment","label": "IT devlopment","icon" :"cook" },
+                "handcraft" : {"key": "handcraft","label": "Handcraft","icon" :"cook" },
+                "animalcare" : {"key": "animalcare","label": "Washing","icon" :"cook" },
+                "agriculture" : {"key": "agriculture","label": "Agriculture","icon" :"cook" },
+                "restauration" : {"key": "restauration","label": "Restauration","icon" :"cook" },
+                "building" : {"key": "building","label": "Building","icon" :"cook" }
+            }
+        },
+        "material" : {"key": "material","icon": "wrench","label": "Material",
+            "subcat" : {
+                "electronic" : {"key": "electronic","label": "Electronic","icon" :"cook" },
+                "furniture" : {"key": "furniture","label": "Furniture","icon" :"cook" },
+                "primaryressources" : {"key": "primaryressources","label": "Primary ressources","icon" :"cook" },
+                "buildingtools" : {"key": "buildingtools","label": "Building tools","icon" :"cook" },
+                "gardeningtools" : {"key": "gardeningtools","label": "Gardening tools","icon" :"cook" },
+                "medicalstuff" : {"key": "medicalstuff","label": "Medical stuff","icon" :"cook" }
+            }
+        } 
+    }
+}
